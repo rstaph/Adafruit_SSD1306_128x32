@@ -12,8 +12,8 @@ BSD license, check license.txt for more information
 All text above, and the splash screen must be included in any redistribution
 *********************************************************************/
 
-#include "Adafruit_SSD1306/Adafruit_GFX.h"
-#include "Adafruit_SSD1306/Adafruit_SSD1306_128x32.h"
+#include "Adafruit_SSD1306_128x32/Adafruit_GFX.h"
+#include "Adafruit_SSD1306_128x32/Adafruit_SSD1306_128x32.h"
 
 #define OLED_RESET D4
 Adafruit_SSD1306 display(OLED_RESET);
@@ -52,7 +52,6 @@ static const unsigned char LOGO16_GLCD_BMP[] =
 #endif
 
 void setup()   {                
-  //Serial.begin(9600);
 
   // by default, we'll generate the high voltage from the 3.3v line internally! (neat!)
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);  // initialize with the I2C addr 0x3C (for the 128x32)
