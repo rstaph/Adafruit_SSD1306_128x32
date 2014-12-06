@@ -1,0 +1,8 @@
+{
+  "name": "Adafruit_SSD1306_128x32",
+  "author": "Adafruit, pkourany",
+  "license": "GNU GPLv3",
+  "version": "0.0.1",
+  "description": "An Implementation of Adafruit's SSD1306 Library for 128x32 displays",
+  "namespace": "Adafruit_SSD1306_128x32"
+}
